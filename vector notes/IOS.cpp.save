@@ -1,0 +1,7 @@
+bool fail() const;// can recover from a fail
+
+
+bool bad() const; //gets set when something bad happends, can not recover from a bad
+
+
+bool eof() const; // that bit is set if you 
